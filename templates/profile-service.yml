@@ -6,7 +6,7 @@ metadata:
 spec:
   imagePullSecrets:
     - name: regcred
-  replicas: 2
+  replicas: {{ .Values.profileService.replicas }}
   selector:
     matchLabels:
       app: profile-service
