@@ -3,6 +3,9 @@ kind: Deployment
 metadata:
   name: user-service
   namespace: dev
+  annotations:
+    kubernetes.io/change-cause: "Deployed image {{ .Values.userService.image }}"
+
 spec:
   imagePullSecrets:
     - name: regcred
