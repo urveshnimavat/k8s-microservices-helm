@@ -1,5 +1,5 @@
 profileService:
-  image: docker.io/urveshnimavat57/profile-service:2
+  image: docker.io/urveshnimavat57/profile-service:3
 
 userService:
   image: docker.io/urveshnimavat57/user-service:6
