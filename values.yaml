@@ -1,6 +1,6 @@
 profileService:
   image: docker.io/urveshnimavat57/profile-service:7
-  replicas: 1
+  replicas: 2
 userService:
   image: docker.io/urveshnimavat57/user-service:10
-  replicas: 1
+  replicas: 2
