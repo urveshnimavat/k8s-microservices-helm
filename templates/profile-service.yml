@@ -3,6 +3,8 @@ kind: Deployment
 metadata:
   name: profile-service
 spec:
+  imagePullSecrets:
+    - name: regcred
   replicas: 1
   selector:
     matchLabels:
