@@ -6,7 +6,7 @@ metadata:
 spec:
   imagePullSecrets:
     - name: regcred
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: user-service
