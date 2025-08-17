@@ -2,4 +2,4 @@ profileService:
   image: docker.io/urveshnimavat57/profile-service:3
 
 userService:
-  image: docker.io/urveshnimavat57/user-service:7
+  image: docker.io/urveshnimavat57/user-service:8
