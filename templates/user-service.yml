@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: user-service
-          image: "{{ .Values.user-service.image }}"
+          image: "{{ .Values.userService.image }}"
           ports:
             - containerPort: 4000
 ---

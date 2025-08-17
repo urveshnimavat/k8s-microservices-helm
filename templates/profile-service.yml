@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: profile-service
-          image: "{{ .Values.profile-service.image }}"
+          image: "{{ .Values.profileService.image }}"
           ports:
             - containerPort: 3000
 ---

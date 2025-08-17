@@ -1,5 +1,5 @@
-profile-service:
+profileService:
   image: urveshnimavat57/profile-service:2
 
-user-service:
+userService:
   image: urveshnimavat57/user-service:6
